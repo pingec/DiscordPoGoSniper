@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project baseDir="D:\node_dev\SniperBot\Demo\bin\Debug" outputDir="D:\node_dev\SniperBot\Demo\bin\Debug\Confused" xmlns="http://confuser.codeplex.com">
+    <rule preset="none" pattern="true">
+        <protection id="anti debug" />
+        <protection id="anti dump" />
+        <protection id="anti ildasm" />
+        <protection id="anti tamper" />
+        <protection id="constants" />
+        <protection id="ctrl flow" />
+        <protection id="invalid metadata" />
+        <protection id="ref proxy" />
+        <protection id="rename" />
+        <protection id="resources" />
+    </rule>
+    <module path="Demo.exe" />
+
+</project>

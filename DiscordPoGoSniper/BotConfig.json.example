@@ -1,0 +1,122 @@
+{
+  "ListenDiscords": [
+    {
+      "Id": "208945864343814145",
+      "Name": "Pokemon Go",
+      "Channels": [
+        {
+          "Id": "208946520874156033",
+          "Name": "rares_gps_cordinates",
+          "MinimumIV": null,
+          "CensorMessages": true,
+          "CensorDelay": 10
+        },
+        {
+          "Id": "209002390257532938",
+          "Name": "90plus_iv",
+          "MinimumIV": null,
+          "CensorMessages": true,
+          "CensorDelay": 10
+        }
+      ]
+    },
+    {
+      "Id": "206232715530338305",
+      "Name": "PokemonGO Rare Hunting",
+      "Channels": [
+        {
+          "Id": "207247439004958720",
+          "Name": "rare_pokemon",
+          "MinimumIV": null,
+          "CensorMessages": null,
+          "CensorDelay": null
+        }
+      ]
+    },
+    {
+      "Id": "207015051612258304",
+      "Name": "PokéGO- Chat, rare spots!",
+      "Channels": [
+        {
+          "Id": "209260366784495616",
+          "Name": "rare_spotting",
+          "MinimumIV": null,
+          "CensorMessages": null,
+          "CensorDelay": null
+        },
+        {
+          "Id": "209171120702619648",
+          "Name": "90plus_ivonly",
+          "MinimumIV": null,
+          "CensorMessages": null,
+          "CensorDelay": null
+        }
+      ]
+    },
+    {
+      "Id": "210013824911278081",
+      "Name": "Test Server",
+      "Channels": [
+        {
+          "Id": "210014664971517953",
+          "Name": "one",
+          "MinimumIV": null,
+          "CensorMessages": null,
+          "CensorDelay": null
+        }
+      ]
+    }
+  ],
+  "PublishDiscords": [
+    {
+      "Id": "208945864343814145",
+      "Name": "Pokemon Go",
+      "Channels": [
+        {
+          "Id": "208946520874156033",
+          "Name": "rares_gps_cordinates",
+          "MinimumIV": null,
+          "CensorMessages": null,
+          "CensorDelay": null
+        },
+        {
+          "Id": "209002390257532938",
+          "Name": "90plus_iv",
+          "MinimumIV": 90,
+          "CensorMessages": null,
+          "CensorDelay": null
+        }
+      ]
+    }
+  ],
+  "PtcAccounts": [
+    {
+      "Username": "user1",
+      "Password": "pass1"
+    },
+    {
+      "Username": "user2",
+      "Password": "pass2"
+    },
+    {
+      "Username": "user3"",
+      "Password": "pass3"
+    },
+    {
+      "Username": "user4",
+      "Password": "pass4"
+    }
+  ],
+  "DiscordAccount": {
+    "User": null,
+    "Password": null,
+    "Token": "Token of bot announcer account here",
+    "IsBot": true
+  },
+  "DiscordSpyAccount": {
+    "User": "spyuser used to listen to other channels where bot is not authorized",
+    "Password": "pass",
+    "Token": null,
+    "IsBot": false
+  }
+}
